@@ -157,7 +157,7 @@ if __name__ == '__main__':
     cameraPosition.insert(END, "0, 0, 2")
 
     # create button to open file
-    openBtn = Button(app, text='Open', command=runProgram)
+    openBtn = Button(app, text='Track Signal', command=runProgram)
     openBtn.pack(expand=FALSE, fill=X, side=TOP)
 
     app.mainloop()
