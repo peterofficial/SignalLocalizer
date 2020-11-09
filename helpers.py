@@ -27,7 +27,7 @@ def getUnitVector(point1, point2):
 #Calculate degree heading from a unit vector
 def getDegreeHeading(unitVector):
     angleA = np.arccos(unitVector[0])
-    angleB = np.arcsin(unitVector[1])
+    angleB = np.arcsin(unitVector[2])
     return [np.degrees(angleA), np.degrees(angleB)]
 
 # Find the intersection of three spheres where P1,P2,P3 are the centers, and r1,r2,r3 are the radii
